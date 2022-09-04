@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>회원가입</title>
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body>
+        <div id="container">
+            <header id="header">
+                <div>
+                    <a href="main.html"><h1 id="logo">Volunteer Day</h1></a>
+                </div>
+            </header>
+            <form id="form">
+                <fieldset>
+                    <p><label>아이디 <input type="text" id="user_id" size="15"></label></p>
+                    <p><label>비밀번호 <input type="password" id="user_pw" size="15"></label></p>
+                    <p><label>비밀번호 확인 <input type="password" id="user_pwcheck" size="15"></label></p>
+                    <p><label>이름 <input type="text" id="user_name" size="15"></label></p>
+                    <p><label>전화번호 <input type="tel" id="user_phone" size="15"></label></p>
+                    <p><label>이메일 <input type="email" id="user_email" size="15"></label></p>
+                </fieldset>
+            </form>
+            <form id="form">
+                <fieldset>
+                    <p>
+                        <label>성별</label>
+                        <label><input type="radio" value="male" id="user_gender" size="15">남</label>
+                        <label><input type="radio" value="female" id="user_gender" size="15">여</label>
+                    </p>
+                    <p><label>나이 <input type="number" id="user_age" size="15"></label></p>
+                    <p>원하는 봉사 해시태그를 선택해주세요</p>
+                    <button id="signup_btn">회원가입</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

@@ -4,6 +4,11 @@
         <meta charset="UTF-8">
         <title>Main page</title>
         <style>
+            #mainlogin {
+                text-align: end;
+                margin-top: 20px;
+                padding-right: 30px;
+            }
             h1 {
                 text-align: center;
                 padding: 100px;
@@ -26,12 +31,16 @@
         </style>
     </head>
     <body>
+        <div id="mainlogin">
+            <a href="login.html">로그인</a>
+            <a href="signup.html">회원가입</a>
+        </div>
         <nav>
             <ul>
+                <li><a href="mypick.html">내 PICK</a></li>
                 <li><a href="Short.html">단기</a></li>
                 <li><a href="Long.html">장기</a></li>
                 <li><a href="Local.html">내 주변</a></li>
-                <li><a href="Hotspot.html">핫스팟</a></li>
                 <li><a href="Total.html">전체</a></li>
                 <li><input type="text" placeholder="키워드를 입력하세요"><button>검색</button></li>
             </ul>

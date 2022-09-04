@@ -1,0 +1,29 @@
+body {
+    background-color: whitesmoke;
+}
+#container {
+    width: 100%;
+}
+#header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: ivory;
+}
+#form_login {
+    width: 600px;
+    margin: auto;
+    padding-top: 100px;
+}
+p {
+    text-align: center;
+    line-height: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+#login_btn {
+    width: 300px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
